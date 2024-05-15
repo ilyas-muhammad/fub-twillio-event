@@ -1,0 +1,54 @@
+{
+  "name": "fub-twilio-events",
+  "version": "1.0.0",
+  "description": "FUB Twilio Events",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node index.local.ts",
+    "lint": "eslint '*.ts' --quiet --fix",
+    "compile": "tsc",
+    "verbose-test": "jest --verbose true --silent false",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeygartin/fub-twilio-events.git"
+  },
+  "author": "ell@petaniweb.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeygartin/fub-twilio-events/issues"
+  },
+  "homepage": "https://github.com/joeygartin/fub-twilio-events#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1358.0",
+    "axios": "^1.3.4",
+    "date-fns-tz": "^2.0.0",
+    "pg": "^8.10.0",
+    "ramda": "0.28.0",
+    "reflect-metadata": "^0.1.13",
+    "twilio": "^4.10.0",
+    "typeorm": "^0.3.12",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.103",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^27.5.2",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "dotenv": "^16.0.2",
+    "esbuild": "^0.17.4",
+    "esbuild-jest": "^0.5.0",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.4.0",
+    "typescript": "5.0.3"
+  }
+}
